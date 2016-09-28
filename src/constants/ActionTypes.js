@@ -1,0 +1,4 @@
+export const ADD_TODO = 'ADD_TODO'
+export const FETCH_TODOS = 'FETCH_TODOS'
+export const COMPLETE_TODO = 'COMPLETE_TODO'
+export const CLEAR_COMPLETED = 'CLEAR_COMPLETED'

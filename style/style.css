@@ -369,3 +369,11 @@ input[type=checkbox], input[type=radio] {
   padding-right: 50px;
   color:#000;
 }
+
+.deleted-complete{
+  color: #ED4238 ; 
+}
+
+.deleted-complete:hover{
+  color: #2E112D ;
+}

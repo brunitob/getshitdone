@@ -10,12 +10,15 @@ class FooterMenu extends Component{
 		
 	console.log('estamos',this.props.actions);
 		return(
-
 			<div className="footer">
-			Greetings from <a href="http://brunobalzani.com">brunobalzani.com</a> / <Link to="#" onClick={() => this.props.actions.clearCompleted()} >Delete completed task <span className="glyphicon glyphicon-remove" aria-hidden="true"></span> </Link>
+				Greetings from <a href="http://brunobalzani.com">brunobalzani.com</a> / 
+				<span >
+					<Link className="deleted-complete" to="#" onClick={() => this.props.actions.clearCompleted()}> Delete completed task 
+						<span className="glyphicon glyphicon-remove" aria-hidden="true"></span>
+					</Link>
+				</span>
 			</div>
-
-			);
+		);
 	}
 }
 
